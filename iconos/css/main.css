@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
+@import url("font-awesome.min.css");
+
+
+	ul.contact {
+		cursor: default;
+		margin: 0 0 1em 0;
+	}
+
+		ul.contact li {
+			display: inline-block;
+			font-size: 1.5em;
+		}
+
+			ul.contact li span {
+				display: none;
+			}
+
+			ul.contact li a {
+				opacity: 0.6;
+				color: black;
+				-moz-transition: opacity 0.20s ease-in-out;
+				-webkit-transition: opacity 0.20s ease-in-out;
+				-ms-transition: opacity 0.20s ease-in-out;
+				transition: opacity 0.20s ease-in-out;
+			}
+
+				ul.contact li a:hover {
+					opacity: 1.0;
+				}
+
+	.icon {
+		position: relative;
+		text-decoration: none;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+			ul.contact {
+				margin-bottom: 1.5em;
+			}
+
+				ul.contact li {
+					margin-left: 1.5em;
+				}
+
+
+	}
